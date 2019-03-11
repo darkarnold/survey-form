@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Survey sheet</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+  <h1 id="title">Survey</h1>
+  <p id="description">Professional Details About You</p>
+  <div class="form-style-6">
+    <form id="survey-form" action="index.html">
+      <p>
+        <label for="name-label">
+          First Name:
+          <input type="text" name="name"  placeholder="First"  id="fname" pattern="[A-Za-z]" required>
+          <br>
+          <br>
+          Last Name:
+           <input type="text" name="name" placeholder="Last"  id="lname" pattern="[A-Za-z]"  required>
+        </label>
+
+      </p>
+
+
+      <p>
+        <label for="email-label">
+          Email:
+          <input type="=email" name="email"  placeholder="example@gmail.com" id="email-label"  required>
+        </label>
+
+
+      </p>
+
+      <label for="">
+        Gender:
+        <br>
+        <input type="radio" name="sex" value="M">Male <br>
+        <input type="radio" name="sex" value="F">Female <br>
+      </label>
+
+      <p>
+        <label for="number-label">
+           Telephone-Number:
+          <input type="tel" name="number"  minlength="13" maxlength="13" pattern="[0-9]" placeholder="256-700-000-000" id="number-label">
+        </label>
+
+      </p>
+
+      <p>
+        Comments
+      <br>
+
+      <textarea name="name" rows="5" cols="100"></textarea>
+      </p>
+
+      <p>
+       <label for="dropdown">
+         Field of Expertise:
+         <select id="dropdown" name="">
+           <option value="Engineering">Engineering</option>
+           <option value="IT">IT</option>
+           <option value="Business">Business</option>
+           <option value="Architecture">Architecture</option>
+           <option value="Agriculture">Agriculture</option>
+
+         </select>
+       </label>
+     </p>
+
+     <div class="interests">
+
+
+
+
+               Interests
+            <br>
+            <br>
+
+
+       <p>
+         Coding
+          <input type="checkbox" name="Coding" value="">
+       </p>
+
+        <p>
+          Skydiving
+          <input type="checkbox" name="Skydiving" value="">
+        </p>
+        <p>
+          Chess
+       <input type="checkbox" name="Chess" value="">
+        </p>
+
+        <p>
+          Athletics
+          <input type="checkbox" name="Athletics" value="">
+        </p>
+
+
+     </div>
+
+     <p>
+       <button type="button" name="Submit" form="survey-form">Submit
+        </button>
+     </p>
+
+
+
+  </form>
+  </div>
+
+
+
+</body>
+</html>
