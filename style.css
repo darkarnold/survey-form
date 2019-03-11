@@ -76,14 +76,14 @@ h1 + p{
   text-align: center;
 }
 
-/* input:required {
-    background:red; */
+ input:required {
+    box-shadow: 0 0 5px 1px red;
 }
 input:valid {
     border: 2px solid black;
 }
 input:invalid {
-    border: 2px dashed red;
+    box-shadow: 0 0 5px 1px red;
 }
 .interests{
   display:flex;
